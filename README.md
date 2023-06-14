@@ -2,8 +2,7 @@
 
 ## Description
 
-Looking through the source HTML and CSS code provided to me regarding the Horiseon Social Solution Services webpage, I found that that it could be simplified and made more modern with the use of symantic HTML tags and the reduction of redunant CSS code. 
-Having the code simplified will make the browser more efficently render the webpage and make it easier for future programmers to look through it in the future.
+Looking through the source HTML and CSS code provided to me regarding the Horiseon Social Solution Services webpage, I found that that it could be simplified and made more modern with the use of symantic HTML tags and the reduction of redunant CSS code. Having the code simplified will make the browser more efficently render the webpage and make it easier for future programmers to look through it in the future.
 
 ## Installation
 
