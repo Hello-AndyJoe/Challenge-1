@@ -1,29 +1,60 @@
-# Challenge 01 - Sysmantic Code Refactor
+# Challenge 01 - Semantic Code Refactor
+
 
 ## Description
 
-Looking through the source HTML and CSS code provided to me regarding the Horiseon Social Solution Services webpage, I found that that it could be simplified and made more modern with the use of symantic HTML tags and the reduction of redunant CSS code. Having the code simplified will make the browser more efficently render the webpage and make it easier for future programmers to look through it in the future.
+
+The source HTML and CSS code of the Horiseon Social Solution Services webpage was reviewed and simplified with the use of semantic HTML tags and the reduction of redundant CSS code. This will benefit the webpage by making it more accessible to users utilizing screen readers and other related accessibility technologies. Additionally, the removal of redundant CSS code will make it efficient for browsers to render and to easier add/edit the styling of the page in the future.
+
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+There is no Installation involved on the users side to utilize this webpage; just visit [https://hello-andyjoe.github.io/Challenge-1/](https://hello-andyjoe.github.io/Challenge-1/)
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+From the user perspective, there's no additional usage beyond just reviewing the copy on the site.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+When inspecting the code, it can be observed in the HTML code the use of semantic code in favor of div elements with class attributes. The replacing of div elements with class attributes also meant that CSS code could be combined in several instances.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The example shown below is three snippets of CSS code that are identical in purpose being combined into one snippet with the use of a semantic HTML element.
+
+![Comparison of original CSS code to edited CSS code removing redundant code.](./assets/images/css_code_reduction.jpg)
+
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Original HTML and CSS code provided by Horiseon Social Solution Services, Inc. ie: ASU Bootcamp Course
 
-If you followed tutorials, include links to those here as well.
 
 ## License
+
+
+MIT License
+
+
+Copyright (c) 2023 Hello-AndyJoe
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
