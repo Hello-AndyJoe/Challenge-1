@@ -28,7 +28,7 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
+span {
     color: #d9dcd6;
 }
 
@@ -65,16 +65,6 @@ figure { /*This is for the large picture of people (the Hero image) discussing b
 
 /*Styling relating to the main element of the page containing the article elements*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 main {
     width: 75%;
     display: inline-block;
@@ -97,6 +87,17 @@ article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+
+.float-left { /*this along with float-right are use to format which side the image appears within the article element*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /*Styling relating to the aside element of the page with the section elements being used for additional styling within the parent element*/
