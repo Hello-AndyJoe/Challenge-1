@@ -21,7 +21,7 @@ When inspecting the code, it can be observed in the HTML code the use of semanti
 
 The example shown below is three snippets of CSS code that are identical in purpose being combined into one snippet with the use of a semantic HTML element.
 
-![Comparison of original CSS code to edited CSS code removing redundant code.](./assets/images/css_code_reduction.jpg)
+![Comparison of original CSS code to edited CSS code removing redundant code.](./assets/images/css_code_reduction.JPG)
 
 
 ## Credits
